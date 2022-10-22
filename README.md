@@ -1,24 +1,9 @@
-# npm
+该项目为 PsChina/wx-base64-qrcode 的fork版本，修复了不会随长度调整二维码版本的BUG
+使用方法：下载 wxqrcode.js 到本地
 
-```bash
-npm i wx-base64-qrcode -S
-```
+可生成dataUrl,兼容性较好
 
-# 为什么使用wx-base64-qrcode
-
-微信小程序二维码生成如果用 canvas 
-
-1 无法在scroll-view中正常使用。
-
-2 无法跟随页面滚动。
-
-3 canvas默认显示在最高层级如需遮罩需增加cover-view添加不必要的页面结构。
-
-而使用 image 的 src 可以完美解决以上问题。
-
-# How to use it.
-
-Only for WeChat Mini Program.
+# 小程序使用
 
 ```xml
 <image src="{{imageSrc}}"></image>
