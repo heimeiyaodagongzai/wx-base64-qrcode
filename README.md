@@ -1,4 +1,5 @@
 该项目为 PsChina/wx-base64-qrcode 的fork版本，修复了不会随长度调整二维码版本的BUG
+
 使用方法：下载 wxqrcode.js 到本地
 
 可生成dataUrl,兼容性较好
